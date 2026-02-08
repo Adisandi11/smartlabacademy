@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Smart Lab Academy 💡🤖
 
-# Run and deploy your AI Studio app
+**Smart Lab Academy** adalah platform website edukasi yang dirancang untuk memperkenalkan dunia teknologi kepada generasi muda, khususnya siswa SD dan SMP. Website ini berfungsi sebagai pusat informasi kursus, kurikulum, dan pendaftaran bagi para calon tech-enthusiast masa depan.
 
-This contains everything you need to run your app locally.
+## 🚀 Fitur Utama
+- **Course Overview**: Informasi detail mengenai program kursus Coding (Web & Mobile) serta Robotic.
+- **Interactive UI**: Antarmuka yang ramah anak dan mudah digunakan.
+- **Modern Tech Stack**: Dibangun dengan standar industri untuk performa yang optimal.
+- **Responsive Design**: Akses lancar baik melalui desktop maupun perangkat mobile.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IUk_ufA3ZAXm_9vvTlheRdUTeagr7S9V
+## 🛠️ Tech Stack
+Proyek ini dikembangkan menggunakan teknologi terbaru:
+- **Framework**: [React.js](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Tailwind CSS (atau CSS-in-JS tergantung preferensi Anda)
 
-## Run Locally
+## 💻 Cara Menjalankan Proyek Secara Lokal
 
-**Prerequisites:**  Node.js
+Pastikan Anda sudah menginstal **Node.js** di perangkat Anda.
 
+1. **Clone Repository**
+   ```bash
+   git clone [https://github.com/Adisandi11/smartlabacademy.git](https://github.com/Adisandi11/smartlabacademy.git)
+   cd smartlabacademy
+2. Instal Dependensi
+   ```bash
+   npm install
+3. Jalankan Mode Pengembangan
+   ```bash
+   npm run dev
+📂 Struktur Proyek
+components/: Berisi komponen UI yang reusable.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+constants.tsx: Menyimpan data statis seperti daftar kursus dan informasi academy.
+
+types.ts: Definisi tipe data TypeScript untuk keamanan kode.
+
+App.tsx: Komponen utama aplikasi.
+
+🤝 Kontribusi
+Jika Anda ingin berkontribusi dalam pengembangan kurikulum atau fitur website ini, silakan lakukan fork dan kirimkan pull request.
