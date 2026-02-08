@@ -22,7 +22,7 @@ export const COURSES: Course[] = [
       "Menggambar di Paint",
       "Microsoft Word Dasar"
     ],
-    price: "Rp 70.000",
+    price: "Rp 50.000",
     duration: "8x Pertemuan",
     isPopular: false
   },
@@ -37,7 +37,7 @@ export const COURSES: Course[] = [
       "Microsoft PowerPoint",
       "Design Grafis Dasar"
     ],
-    price: "Rp 80.000",
+    price: "Rp 50.000",
     duration: "8x Pertemuan",
     isPopular: true
   }
