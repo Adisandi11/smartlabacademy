@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
               <div>
                 <h3 className="font-bold text-xl mb-1">Hubungi Kami</h3>
                 <p className="text-blue-100 text-lg mb-2">
-                  {CONTACT_INFO.displayPhone})
+                  {CONTACT_INFO.displayPhone}
                 </p>
                 <a 
                   href={`https://wa.me/${CONTACT_INFO.whatsapp}`}
